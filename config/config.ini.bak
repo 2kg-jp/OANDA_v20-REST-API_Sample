@@ -1,0 +1,18 @@
+# OANDA v20 REST API Account
+###
+# OANDA v20 REST APIを使用するためのアカウント設定情報です。
+# 各環境ごとの設定値を自らのアカウントに合わせて書き換えること。
+# 値を書き換えた後、本ファイルのファイル名を「 config.ini 」に変更して保存すること。
+###
+
+## デモ環境
+[oanda_practice]
+url_prefix = https://api-fxpractice.oanda.com
+account_id = 111-222-33333333-444
+personal_access_token = abcdefghijklmnopqrstuvwxyz123456-7890abcdefghijklmnopqrstuvwxyz12
+
+## 本番環境
+[oanda_production]
+url_prefix = https://api-fxtrade.oanda.com
+account_id = 111-222-33333333-444
+personal_access_token = abcdefghijklmnopqrstuvwxyz123456-7890abcdefghijklmnopqrstuvwxyz12
