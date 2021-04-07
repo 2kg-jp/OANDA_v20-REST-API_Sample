@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 jupyterlab = "*"
+jupyter = "*"
+urllib3 = "==1.26.4"
 
 [dev-packages]
 
